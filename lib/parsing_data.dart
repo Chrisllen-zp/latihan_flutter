@@ -10,7 +10,7 @@ class ParsingData extends StatelessWidget {
             color: Colors.white,
           ),
         ),
-        backgroundColor: Colors.blue,
+        backgroundColor: Color.fromARGB(255, 202, 34, 34),
       ),
       body: Center(
         child: Text("Selamat Datang di Halaman Parsing Data"),

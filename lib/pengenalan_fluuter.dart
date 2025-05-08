@@ -10,7 +10,7 @@ class KenalFlutter extends StatelessWidget {
             color: Colors.white,
           ),
         ),
-        backgroundColor: Colors.blue,
+        backgroundColor: Color.fromARGB(255, 201, 140, 35),
       ),
       body: Center(
         child: Text("Selamat Datang di Halaman Pengenalan Flutter"),
