@@ -11,6 +11,7 @@ import './contoh_stateless.dart';
 import './contoh_stateful.dart';
 import './mahasiswa_form.dart';
 import './tugas_form.dart';
+import './tugas_stateful.dart';
 
 class Parsing extends StatelessWidget {
   const Parsing({super.key});
@@ -92,6 +93,14 @@ class Parsing extends StatelessWidget {
               onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => TugasForm()));
+              },
+            ),
+            CardWidget(
+              judul: "Tugas - Stateful",
+              icon: Icons.folder,
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => NilaiAPlease()));
               },
             ),
           ],

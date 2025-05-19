@@ -18,7 +18,11 @@ class _TugasFormState extends State<TugasForm> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Tambah Mata Kuliah")),
+      appBar: AppBar(title: Text("Tambah Mata Kuliah", style: TextStyle(
+            color: Colors.black,
+          ),
+        ),
+        backgroundColor: Color.fromARGB(255, 210, 199, 38),),
       body: Form(
         key: _formKey,
         child: Column(

@@ -13,7 +13,11 @@ class TugasFormdetail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Detail Mata Kuliah")),
+      appBar: AppBar(title: Text("Detail Mata Kuliah", style: TextStyle(
+            color: Colors.black,
+          ),
+        ),
+        backgroundColor: Color.fromARGB(255, 221, 213, 102),),
       body: Center(
         child: Column(
           children: [
